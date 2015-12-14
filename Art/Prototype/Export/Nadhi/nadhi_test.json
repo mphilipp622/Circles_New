@@ -1,0 +1,105 @@
+{
+"skeleton": { "hash": "7yVkL8bBqUZTAjRWzbLoVxC7rOE", "spine": "2.1.27", "width": 1386, "height": 835 },
+"bones": [
+	{ "name": "root", "x": -13.32, "y": -11.11 }
+],
+"slots": [
+	{ "name": "wings", "bone": "root", "attachment": "wings" },
+	{ "name": "bottom hair", "bone": "root", "attachment": "bottom hair" },
+	{ "name": "nadhi", "bone": "root", "attachment": "nadhi" },
+	{ "name": "nadhi_blink", "bone": "root", "attachment": "nadhi_blink" },
+	{ "name": "nadhi_grin", "bone": "root", "attachment": "nadhi_grin" },
+	{ "name": "staff", "bone": "root", "attachment": "staff" },
+	{ "name": "robe", "bone": "root", "attachment": "robe" },
+	{ "name": "top hair", "bone": "root", "attachment": "top hair" },
+	{ "name": "hand_snap", "bone": "root", "attachment": "hand_snap" }
+],
+"skins": {
+	"default": {
+		"bottom hair": {
+			"bottom hair": { "x": 157.23, "y": 536.11, "width": 337, "height": 530 }
+		},
+		"hand_snap": {
+			"hand_snap": { "x": 460.73, "y": 284.61, "width": 292, "height": 545 }
+		},
+		"nadhi": {
+			"nadhi": { "x": 158.23, "y": 485.61, "width": 409, "height": 607 }
+		},
+		"nadhi_blink": {
+			"nadhi_blink": { "x": 158.23, "y": 485.61, "width": 409, "height": 607 }
+		},
+		"nadhi_grin": {
+			"nadhi_grin": { "x": 158.23, "y": 485.61, "width": 409, "height": 607 }
+		},
+		"robe": {
+			"robe": { "x": 107.23, "y": 258.61, "width": 611, "height": 493 }
+		},
+		"staff": {
+			"staff": { "x": -358.8, "y": 429.61, "width": 539, "height": 835 }
+		},
+		"top hair": {
+			"top hair": { "x": 93.73, "y": 438.61, "width": 380, "height": 717 }
+		},
+		"wings": {
+			"wings": { "x": 18.73, "y": 429.61, "width": 1386, "height": 835 }
+		}
+	}
+},
+"animations": {
+	"nadhi_grin": {},
+	"nadhi_grin_snap": {
+		"slots": {
+			"hand_snap": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.538, 0.02, 0.5, 0.97 ]
+					},
+					{ "time": 1.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.3, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 1.7, "x": -7.31, "y": -20.1 }
+				]
+			}
+		}
+	},
+	"nadhi_idle": {
+		"slots": {
+			"nadhi_blink": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 2.8,
+						"color": "ffffff00",
+						"curve": [ 0.538, 0.02, 0.5, 0.97 ]
+					},
+					{
+						"time": 3.6333,
+						"color": "ffffffff",
+						"curve": [ 0.538, 0.02, 0.5, 0.97 ]
+					},
+					{ "time": 4.5, "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 9.7666,
+						"color": "ffffff00",
+						"curve": [ 0.538, 0.02, 0.5, 0.97 ]
+					},
+					{
+						"time": 10.5333,
+						"color": "ffffffff",
+						"curve": [ 0.538, 0.02, 0.5, 0.97 ]
+					},
+					{ "time": 11.2666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 15, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

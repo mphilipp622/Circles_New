@@ -1,0 +1,69 @@
+
+nadhi_test.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bottom hair
+  rotate: true
+  xy: 2, 2
+  size: 337, 530
+  orig: 337, 530
+  offset: 0, 0
+  index: -1
+hand_snap
+  rotate: true
+  xy: 1336, 404
+  size: 292, 545
+  orig: 292, 545
+  offset: 0, 0
+  index: -1
+nadhi
+  rotate: false
+  xy: 925, 569
+  size: 409, 607
+  orig: 409, 607
+  offset: 0, 0
+  index: -1
+nadhi_blink
+  rotate: true
+  xy: 1390, 1109
+  size: 409, 607
+  orig: 409, 607
+  offset: 0, 0
+  index: -1
+nadhi_grin
+  rotate: true
+  xy: 1336, 698
+  size: 409, 607
+  orig: 409, 607
+  offset: 0, 0
+  index: -1
+robe
+  rotate: false
+  xy: 1390, 1520
+  size: 611, 493
+  orig: 611, 493
+  offset: 0, 0
+  index: -1
+staff
+  rotate: false
+  xy: 2, 341
+  size: 539, 835
+  orig: 539, 835
+  offset: 0, 0
+  index: -1
+top hair
+  rotate: false
+  xy: 543, 459
+  size: 380, 717
+  orig: 380, 717
+  offset: 0, 0
+  index: -1
+wings
+  rotate: false
+  xy: 2, 1178
+  size: 1386, 835
+  orig: 1386, 835
+  offset: 0, 0
+  index: -1

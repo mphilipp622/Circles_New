@@ -1,0 +1,183 @@
+{
+	"bones": [
+		{
+			"name": "root"
+		},
+		{
+			"name": "nadhi_robe",
+			"parent": "root",
+			"enabled": true,
+			"x": 1240,
+			"y": -913
+		},
+		{
+			"name": "nadhi_blink",
+			"parent": "nadhi_robe",
+			"enabled": true,
+			"x": 82,
+			"y": 356
+		},
+		{
+			"name": "nadhi_staff",
+			"parent": "nadhi_robe",
+			"enabled": true,
+			"x": -600,
+			"y": 270
+		},
+		{
+			"name": "nadhi_wings",
+			"parent": "nadhi_robe",
+			"enabled": true,
+			"x": 0,
+			"y": 270
+		},
+		{
+			"name": "nadhi_hair_t",
+			"parent": "nadhi_blink",
+			"enabled": true,
+			"x": -98,
+			"y": -66
+		},
+		{
+			"name": "nadhi_idle",
+			"parent": "nadhi_blink",
+			"enabled": true,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"name": "nadhi_hair_b",
+			"parent": "nadhi_hair_t",
+			"enabled": true,
+			"x": 88,
+			"y": 144
+		}
+	],
+	"slots": [
+		{
+			"name": "nadhi_wings",
+			"bone": "nadhi_wings",
+			"attachment": "nadhi_idle-assets/nadhi_wings"
+		},
+		{
+			"name": "nadhi_staff",
+			"bone": "nadhi_staff",
+			"attachment": "nadhi_idle-assets/nadhi_staff"
+		},
+		{
+			"name": "nadhi_hair_b",
+			"bone": "nadhi_hair_b",
+			"attachment": "nadhi_idle-assets/nadhi_hair_b"
+		},
+		{
+			"name": "nadhi_idle",
+			"bone": "nadhi_idle",
+			"attachment": "nadhi_idle-assets/nadhi_idle"
+		},
+		{
+			"name": "nadhi_blink",
+			"bone": "nadhi_blink",
+			"attachment": "nadhi_idle-assets/nadhi_blink",
+			"color": "FFFFFF00"
+		},
+		{
+			"name": "nadhi_robe",
+			"bone": "nadhi_robe",
+			"attachment": "nadhi_idle-assets/nadhi_robe"
+		},
+		{
+			"name": "nadhi_hair_t",
+			"bone": "nadhi_hair_t",
+			"attachment": "nadhi_idle-assets/nadhi_hair_t"
+		}
+	],
+	"skins": {
+		"default": {
+			"nadhi_wings": {
+				"nadhi_idle-assets/nadhi_wings": {
+					"x": 0,
+					"y": 0,
+					"width": 2160,
+					"height": 1302
+				}
+			},
+			"nadhi_staff": {
+				"nadhi_idle-assets/nadhi_staff": {
+					"x": 0,
+					"y": 0,
+					"width": 840,
+					"height": 1302
+				}
+			},
+			"nadhi_hair_b": {
+				"nadhi_idle-assets/nadhi_hair_b": {
+					"x": 0,
+					"y": 0,
+					"width": 526,
+					"height": 824
+				}
+			},
+			"nadhi_idle": {
+				"nadhi_idle-assets/nadhi_idle": {
+					"x": 0,
+					"y": 0,
+					"width": 636,
+					"height": 945
+				}
+			},
+			"nadhi_blink": {
+				"nadhi_idle-assets/nadhi_blink": {
+					"x": 0,
+					"y": 0,
+					"width": 636,
+					"height": 945
+				}
+			},
+			"nadhi_robe": {
+				"nadhi_idle-assets/nadhi_robe": {
+					"x": 0,
+					"y": 0,
+					"width": 952,
+					"height": 768
+				}
+			},
+			"nadhi_hair_t": {
+				"nadhi_idle-assets/nadhi_hair_t": {
+					"x": 0,
+					"y": 0,
+					"width": 591,
+					"height": 1116
+				}
+			}
+		}
+	},
+	"animations": {
+		"animation": {
+			"bones": {
+				
+			},
+			"slots": {
+				"nadhi_blink": {
+					"color": [
+						{
+							"time": 0,
+							"color": "FFFFFF00"
+						},
+						{
+							"time": 1.4,
+							"color": "FFFFFF00"
+						},
+						{
+							"time": 1.98333333333333,
+							"color": "FFFFFFff"
+						},
+						{
+							"time": 2.56666666666667,
+							"color": "FFFFFF00"
+						}
+					]
+				}
+			}
+		}
+	}
+}

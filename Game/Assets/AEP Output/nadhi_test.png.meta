@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: a36c3a078fbfe9e4194c24cead66910a
+timeCreated: 1450118032
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: nadhi_blink
+    21300002: nadhi_grin
+    21300004: nadhi_hair_b
+    21300006: nadhi_hair_t
+    21300008: nadhi_hand_snap
+    21300010: nadhi_idle
+    21300012: nadhi_robe
+    21300014: nadhi_staff
+    21300016: nadhi_wings
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: 5
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: nadhi_blink
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1303
+        width: 636
+        height: 945
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nadhi_grin
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2249
+        width: 636
+        height: 945
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nadhi_hair_b
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2420
+        width: 526
+        height: 824
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nadhi_hair_t
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1303
+        width: 591
+        height: 1116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nadhi_hand_snap
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 3195
+        width: 458
+        height: 852
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nadhi_idle
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1303
+        width: 636
+        height: 945
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nadhi_robe
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 0
+        width: 952
+        height: 768
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nadhi_staff
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 0
+        width: 840
+        height: 1302
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nadhi_wings
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2160
+        height: 1302
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,54 @@
+
+Clouds.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_Clouds
+  rotate: false
+  xy: 2, 926
+  size: 1642, 922
+  orig: 1644, 924
+  offset: 1, 1
+  index: -1
+BG_Clouds_2
+  rotate: false
+  xy: 2, 2
+  size: 1642, 922
+  orig: 1644, 924
+  offset: 1, 1
+  index: -1
+BG_Clouds_3
+  rotate: true
+  xy: 1646, 632
+  size: 1216, 339
+  orig: 1218, 341
+  offset: 1, 1
+  index: -1
+
+Clouds2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_Clouds_2_1
+  rotate: false
+  xy: 2, 2
+  size: 1066, 369
+  orig: 1068, 371
+  offset: 1, 1
+  index: -1
+BG_Clouds_2_2
+  rotate: false
+  xy: 2, 373
+  size: 1642, 650
+  orig: 1644, 652
+  offset: 1, 1
+  index: -1
+BG_Clouds_2_3
+  rotate: false
+  xy: 2, 1025
+  size: 1585, 922
+  orig: 1587, 924
+  offset: 1, 1
+  index: -1

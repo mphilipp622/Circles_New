@@ -1,0 +1,41 @@
+
+Blue.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BLUE_Body
+  rotate: true
+  xy: 2, 110
+  size: 286, 548
+  orig: 288, 550
+  offset: 1, 1
+  index: -1
+BLUE_Head_Angry
+  rotate: true
+  xy: 552, 58
+  size: 338, 382
+  orig: 340, 384
+  offset: 1, 1
+  index: -1
+BLUE_Head_Idle
+  rotate: true
+  xy: 936, 58
+  size: 338, 382
+  orig: 340, 384
+  offset: 1, 1
+  index: -1
+BLUE_L_Arm
+  rotate: false
+  xy: 1320, 144
+  size: 262, 252
+  orig: 264, 254
+  offset: 1, 1
+  index: -1
+BLUE_R_Arm
+  rotate: true
+  xy: 2, 2
+  size: 106, 409
+  orig: 108, 411
+  offset: 1, 1
+  index: -1

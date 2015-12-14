@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chapter_1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<page number = "1">
+		<name>Nadhi</name>
+		<dialogue>This is a test!</dialogue>
+		<sprite>Char_1</sprite>
+		<background>Image_1</background>
+		<spine>Blue</spine>
+		<animation>Angry</animation>
+		<music>In The Clouds Master</music>
+		<SFX>confirm</SFX>
+	</page>
+	<page number = "2">
+		<name>Nadhi</name>
+		<dialogue>This is a second test.</dialogue>
+		<sprite>Char_2</sprite>
+		<background>Image_2</background>
+		<spine>Blue</spine>
+		<animation>Idle</animation>
+		<music>Nadhi's Theme Master</music>
+		<SFX>confirm</SFX>
+	</page>
+	<page number = "3">
+		<name>Nadhi</name>
+		<dialogue>This is a third test.</dialogue>
+		<sprite>Char_3</sprite>
+		<background>Image_3</background>
+		<spine>Nadhi</spine>
+		<animation>Idle</animation>
+		<music>Nadhi's Theme Master</music>
+		<SFX>confirm_2</SFX>
+	</page>
+	<page number = "4">
+		<name>Nadhi</name>
+		<dialogue>This is a fourth test.</dialogue>
+		<sprite>Char_4</sprite>
+		<background>Image_4</background>
+		<spine>Nadhi</spine>
+		<animation>Smile</animation>
+		<music>In The Clouds Master</music>
+		<SFX>confirm_2</SFX>
+	</page>
+	<page number = "5">
+		<name>Nadhi</name>
+		<dialogue>This is a fifth test.</dialogue>
+		<sprite>Char_5</sprite>
+		<background>Image_5</background>
+		<spine>Clouds</spine>
+		<animation>Clouds_1</animation>
+		<music>In The Clouds Master</music>
+		<SFX>start_heaven_1</SFX>
+	</page>
+	<page number = "6">
+		<name>Nadhi</name>
+		<dialogue>This is a sixth test.</dialogue>
+		<sprite>Char_6</sprite>
+		<background>Image_6</background>
+		<spine>Blue</spine>
+		<animation>Angry</animation>
+		<music>In The Clouds Master</music>
+		<SFX>start_heaven_1</SFX>
+	</page>
+</chapter_1>
