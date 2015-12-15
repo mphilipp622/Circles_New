@@ -3,7 +3,9 @@ using System.Collections;
 
 public class SendXMLAnimation: MonoBehaviour {
 
-	Animator currentAnimation, animationOne, animationTwo, quads;
+	Animator currentAnimation, quads;
+	[SerializeField]
+	Animator animationOne, animationTwo;
 	string currentAnimName, nextAnimName;
 	bool quadOneActive = true, quadTwoActive = false;
 	int currentQuad, nextQuad;
@@ -13,9 +15,17 @@ public class SendXMLAnimation: MonoBehaviour {
 	int pageNum = 0;
 	
 	void Start () {
-		
-		animationOne = transform.FindChild("nadhi_1_test").GetComponent<Animator>();
-		animationTwo = transform.FindChild ("nadhi_2_test").GetComponent<Animator>();
+
+		if(animationOne == null)
+		{
+			animationOne = transform.FindChild("nadhi_1_test").GetComponent<Animator>();
+		}
+
+		if(animationTwo == null)
+		{
+			animationTwo = transform.FindChild ("nadhi_2_test").GetComponent<Animator>();
+		}
+
 		quads = GameObject.Find("Quads").GetComponent<Animator>();
 		
 	}
