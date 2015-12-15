@@ -4,14 +4,15 @@ using System.Collections;
 public class XMLData {
 
 	public int pageNum;
-	public string charText, dialogueText;
+	public string charText, dialogueText, animationName;
 	public AudioClip musicClip, soundClip;
 	
-	public XMLData (int page, string character, string dialogue, AudioClip music, AudioClip sound)
+	public XMLData (int page, string character, string dialogue, string animation, AudioClip music, AudioClip sound)
 	{
 		pageNum = page;
 		charText = character;
 		dialogueText = dialogue;
+		animationName = animation;
 		musicClip = music;
 		soundClip = sound;
 	}
@@ -21,6 +22,7 @@ public class XMLData {
 		pageNum = 0;
 		charText = null;
 		dialogueText = null;
+		animationName = null;
 		musicClip = null;
 		soundClip = null;
 	}

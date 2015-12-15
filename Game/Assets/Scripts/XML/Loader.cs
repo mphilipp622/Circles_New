@@ -36,7 +36,8 @@ public class Loader : MonoBehaviour {
 	void Update () {
 		if (finishedLoading) 
 		{
-			Application.LoadLevel ("Main");
+			//Application.LoadLevel ("Main");
+			Destroy(gameObject);
 			finishedLoading = false;
 		}
 	}
@@ -62,8 +63,11 @@ public class Loader : MonoBehaviour {
 				soundClip = Resources.Load ("SFX/" + item.Parent.Element ("SFX").Value.Trim ().ToString ()) as AudioClip;
 				*/
 
-				data.Add (new XMLData(int.Parse (item.Parent.Attribute ("number").Value), item.Parent.Element("name").Value.Trim (),
+				data.Add (new XMLData(int.Parse (item.Parent.Attribute ("number").Value), 
+				                      item.Parent.Element("name").Value.Trim (),
 				                      item.Parent.Element ("dialogue").Value.Trim (), 
+				                      item.Parent.Element ("animation").Value.Trim (),
+
 				                      Resources.Load ("Audio/Music/" + item.Parent.Element ("music").Value.Trim ().ToString ()) as AudioClip, 
 				                      Resources.Load ("Audio/SFX/" + item.Parent.Element ("SFX").Value.Trim ().ToString ()) as AudioClip));
 

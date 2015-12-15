@@ -6,7 +6,7 @@
 		<sprite>Char_1</sprite>
 		<background>Image_1</background>
 		<spine>Blue</spine>
-		<animation>Angry</animation>
+		<animation>nadhi_idle</animation>
 		<music>In The Clouds Master</music>
 		<SFX>confirm</SFX>
 	</page>
@@ -16,7 +16,7 @@
 		<sprite>Char_2</sprite>
 		<background>Image_2</background>
 		<spine>Blue</spine>
-		<animation>Idle</animation>
+		<animation>nadhi_grin</animation>
 		<music>Nadhi's Theme Master</music>
 		<SFX>confirm</SFX>
 	</page>
@@ -26,7 +26,7 @@
 		<sprite>Char_3</sprite>
 		<background>Image_3</background>
 		<spine>Nadhi</spine>
-		<animation>Idle</animation>
+		<animation>nadhi_grin</animation>
 		<music>Nadhi's Theme Master</music>
 		<SFX>confirm_2</SFX>
 	</page>
@@ -36,7 +36,7 @@
 		<sprite>Char_4</sprite>
 		<background>Image_4</background>
 		<spine>Nadhi</spine>
-		<animation>Smile</animation>
+		<animation>nadhi_hand_snap</animation>
 		<music>In The Clouds Master</music>
 		<SFX>confirm_2</SFX>
 	</page>
@@ -46,7 +46,7 @@
 		<sprite>Char_5</sprite>
 		<background>Image_5</background>
 		<spine>Clouds</spine>
-		<animation>Clouds_1</animation>
+		<animation>nadhi_hand_snap</animation>
 		<music>In The Clouds Master</music>
 		<SFX>start_heaven_1</SFX>
 	</page>
@@ -56,7 +56,7 @@
 		<sprite>Char_6</sprite>
 		<background>Image_6</background>
 		<spine>Blue</spine>
-		<animation>Angry</animation>
+		<animation>nadhi_idle</animation>
 		<music>In The Clouds Master</music>
 		<SFX>start_heaven_1</SFX>
 	</page>
