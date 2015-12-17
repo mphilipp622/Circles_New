@@ -20,9 +20,7 @@ public class CrossfadeScenes : MonoBehaviour {
 
 	void Start () 
 	{
-
-
-
+		
 		quad1Color = quad1.material.color;
 		quad2Color = quad2.material.color;
 		quadBGColor = quadBG.material.color;
@@ -34,6 +32,7 @@ public class CrossfadeScenes : MonoBehaviour {
 	{
 		if(Input.GetKeyDown (KeyCode.Space))
 		{
+			gameObject.name = "QuadsOld";
 			Application.LoadLevel("Main");
 			quadAnimator.SetTrigger("FadeAll");
 			startTime = Time.time;
