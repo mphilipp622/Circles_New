@@ -16,7 +16,7 @@ public class SendXMLAnimation: MonoBehaviour {
 	
 	void Start () {
 
-		DontDestroyOnLoad(gameObject);
+		//DontDestroyOnLoad(gameObject);
 
 		if(animationOne == null)
 		{
