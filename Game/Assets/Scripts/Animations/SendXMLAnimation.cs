@@ -16,6 +16,8 @@ public class SendXMLAnimation: MonoBehaviour {
 	
 	void Start () {
 
+		DontDestroyOnLoad(gameObject);
+
 		if(animationOne == null)
 		{
 			animationOne = transform.FindChild("nadhi_1_test").GetComponent<Animator>();
